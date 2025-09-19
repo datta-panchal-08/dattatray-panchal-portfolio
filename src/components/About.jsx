@@ -1,13 +1,18 @@
 import React from 'react'
-import html from '/frontend/html.png'
-import css from '/frontend/css.png'
-import js from '/js-logo.png'
-import nodejs from '/node-js.png'
-import react from '/react-logo.png'
+import html from '/frontend/html.webp'
+import css from '/frontend/css.webp'
+import js from '/js-logo.webp'
+import nodejs from '/backend/node-js.webp'
+import react from '/react-logo.webp'
 import next from '/frontend/next-js.webp'
-import redux from '/frontend/redux.png'
-import tailwindcss from '/frontend/tailwindcss.png'
-import bootstrap from '/frontend/bootstrap.png'
+import redux from '/frontend/redux.webp'
+import tailwindcss from '/frontend/tailwindcss.webp'
+import bootstrap from '/frontend/bootstrap.webp'
+import express from '/backend/express.webp'
+import mongodb from '/backend/mongodb.webp'
+import mongoose from '/backend/mongoose.webp'
+import socketIo from '/backend/socket io.webp'
+
 
 const About = () => {
 
@@ -22,13 +27,14 @@ const About = () => {
         { icon: bootstrap, text: "Bootstrap", experience: "Fresher" },
     ]
 
-    const backend = [
-        { icon: nodejs, text: "Node Js", experience: "Fresher" },
-        { icon: "https://w7.pngwing.com/pngs/768/167/png-transparent-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass-business-thumbnail.png", text: "MongoDB", experience: "Fresher" },
-        { icon: "https://w1.pngwing.com/pngs/711/379/png-transparent-green-grass-mongodb-database-documentoriented-database-dashboard-nosql-bson-javascript-thumbnail.png", text: "Mongoose", experience: "Fresher" },
-        { icon: "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-thumbnail.png", text: "Express Js", experience: "Fresher" },
-        { icon: "https://images.icon-icons.com/2389/PNG/512/socket_io_logo_icon_144874.png", text: "Socket io", experience: "Fresher" }
-    ]
+     const backend = [
+        { icon:nodejs, text: "Node Js", experience: "Fresher" },
+        { icon:mongodb, text: "MongoDB", experience: "Fresher" },
+        {icon:mongoose,text:"Mongoose",experience:"Fresher"},
+        {icon:express,text:"Express Js",experience:"Fresher"},
+        {icon:socketIo,text:"Socket io",experience:"Fresher"}   
+      ]
+    
 
     return (
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 mt-2 px-5">

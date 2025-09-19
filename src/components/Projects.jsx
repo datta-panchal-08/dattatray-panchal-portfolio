@@ -1,7 +1,7 @@
 import React from 'react'
-import RentPlace from '/ProjectImages/RentMyPlace.png'
-import TMDB from '/ProjectImages/TMDB.png'
-import Vidzy from '/ProjectImages/Vidzy.png'
+import RentPlace from '/ProjectImages/RentMyPlace.webp'
+import TMDB from '/ProjectImages/TMDB.webp'
+import Vidzy from '/ProjectImages/Vidzy.webp'
 
 const Projects = () => {
 

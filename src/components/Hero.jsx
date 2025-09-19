@@ -1,10 +1,10 @@
 import React from 'react'
 import { Typewriter } from "react-simple-typewriter";
-import WorkImg from '/male-char.png'
-import Frontend from '/react-logo.png'
-import Fullstack from '/js-logo.png'
-import Backend from '/node-js.png'
-import Webdev from '/stack-worker.png'
+import WorkImg from '/male-char.webp'
+import Frontend from '/react-logo.webp'
+import Fullstack from '/js-logo.webp'
+import Backend from '/backend/node-js.webp'
+import Webdev from '/stack-worker.webp'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
