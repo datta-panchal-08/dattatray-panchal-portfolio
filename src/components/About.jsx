@@ -31,7 +31,7 @@ const About = () => {
     ]
 
     return (
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 mt-2 px-4">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 mt-2 px-5">
             {/* About Section */}
             <div className="about">
                 <h1 className="text-2xl sm:text-3xl mb-3 font-bold text-[#0482ff] lg:text-left">
