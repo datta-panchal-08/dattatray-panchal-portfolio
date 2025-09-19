@@ -39,7 +39,7 @@ const Projects = () => {
         >
           <img
             loading='lazy'
-            className='h-[70%] object-cover'
+            className='h-[40vh] lg:h-[70%] object-'
             src={item.image}
             alt={item.title}
           />
