@@ -39,11 +39,7 @@ const Projects = () => {
         >
           <img
             loading='lazy'
-<<<<<<< HEAD
             className='h-[250px] object-[10%_5%]'
-=======
-            className='h-[40vh] lg:h-[70%] object-'
->>>>>>> 1086e3c7eb1efa513c7aa69061d19e7ae3a2a0ae
             src={item.image}
             alt={item.title}
           />
